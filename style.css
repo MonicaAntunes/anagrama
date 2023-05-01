@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: linear-gradient(45deg, rgb(16, 5, 88), rgb(12, 162, 189), black);
+  background-attachment: fixed;
+}
+
+.palavrasEncontradas {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.anagrama {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+
+.enviar {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(80, 69, 153);
+  border-radius: 10%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: beige;
+}
+
+.resposta {
+  width: 500px;
+  height: 250px;
+  background-color: beige;
+  border-radius: 1%;
+}
