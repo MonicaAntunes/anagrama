@@ -86,8 +86,8 @@ function main (){
   for (let i = 0; i < resultInput.length; i++) {
     const compare = compareObjects(resultInput[i], resultOutput)
     if (compare) {
-      const resposta = document.getElementById('resposta')
-      resposta.innerHTML += search[i] += "<br>"
+      const resposta = search[i];
+      window.location.href = "resposta.html?resposta=" + resposta;
     }
   }
 }

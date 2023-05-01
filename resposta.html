@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultados</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Palavras Encontradas:</h1>
+    <ul id="palavras-encontradas"></ul>
+      <div class="resposta" id="resposta"></div>
+      <script>
+        const respostaDiv = document.getElementById('resposta');
+        const resposta = decodeURIComponent(location.search.replace('?resposta=', ''));
+        respostaDiv.innerHTML = resposta;
+      </script>
+</body>
+<script src="./anagramaData.js"></script>
+</html>
